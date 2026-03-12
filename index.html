@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-us">
+<style>
+  html {
+    background: black;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+
+  .center {
+    text-align: center;
+    margin: auto;
+
+  }
+</style>
+
+<head>
+  <!-- Remove the base tag if you have the files yourself-->
+  <base href="https://cdn.jsdelivr.net/gh/Greenfenix414/staticlove.js/">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+  <title>löve.js</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas id="canvas" class="center"></canvas>
+  <div id="loading" class="center">Loading...</div><!--I know this won't show but I'm keeping it here-->
+  <script>
+    //remember to split game.love into smaller pieces use pinetools filesplitter and putting them where loveFileFull points to
+    let loveFile = "oh-my-giraffe.love";
+    let loveFileFull = "https://cdn.jsdelivr.net/gh/Greenfenix414/oh-my-giraffe-web/assets/assets/oh-my-giraffe.love"
+    let numPieces=9
+  </script>
+  <script src="love.js"></script>
+</body>
+
+</html>
